@@ -1,4 +1,6 @@
-# desafio_iS
+# Desafio front-end InternetSistemas
+
+[DEMO] (https://malinosqui.github.io/desafio_iS/)
 
 Desafio para o processo seletivo da InternetSistemas, para este desafio foram utilizadas as bibliotecas JQuery, moment.js, browserfy e grunt. Os códigos estão em es6 e são interpretados e transformados para es5 com o babel.
 
