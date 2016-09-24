@@ -20,7 +20,6 @@ module.exports = function (grunt) {
                             ]
                         }]
                     ],
-                    watch: true,
                     keepAlive: true,
                 }
             },
@@ -83,7 +82,7 @@ module.exports = function (grunt) {
     grunt.loadNpmTasks('grunt-contrib-imagemin');
     grunt.loadNpmTasks('grunt-browserify');
 
-    grunt.registerTask("buildDev", ['htmlmin', 'cssmin', 'browserify:development']);
+    grunt.registerTask("buildDev", ['htmlmin', 'cssmin', 'imagemin', 'browserify:development']);
     grunt.registerTask("buildProd", ['htmlmin', 'cssmin', 'browserify:production']);
 
 };
