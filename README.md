@@ -17,6 +17,6 @@ Após ter instalado todas as dependências, certifique-se de que tem o ```grunt-
 Depois que instalamos tudo o que é necesessário para o projeto rodar, vamos gerar a pasta ```dist```, que é a pasta pronta para dar deploy, com todas as boas práticas aplicadas, minificação de css e html e a transformação do código em es6 para es5 para os navegadores entenderem. Para isso, execute o comando ```grunt buildDev```.
 
 ## Rodando
-Pronto, agora todos os arquivos do site foram gerados, agora é só rodar o ```http-server``` dentro da pasta dist e ser feliz.
+Pronto, agora todos os arquivos do site foram gerados, agora é só rodar o ```http-server``` dentro da pasta ```dist``` e ser feliz.
 
 
