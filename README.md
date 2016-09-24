@@ -8,7 +8,7 @@ Lembrando que todos esses passos são necessários devido a utilização do es6 
 
 
 ## Clonando e instalando dependências
-Primeiramente, clone esse repositório, após clonar, execute o comando ```npm install``` para instalar todas as dependências que o projeto necessita.
+Primeiramente, clone esse repositório utlizando o comando ```git clone https://github.com/malinosqui/desafio_iS.git```, após clonar, execute o comando ```npm install``` para instalar todas as dependências que o projeto necessita.
 
 ## Grunt
 Após ter instalado todas as dependências, certifique-se de que tem o ```grunt-cli``` instalado globalmente na sua máquina, para isso tente rodar o comando ```grunt```, caso de algum erro execute o comando ```npm install -g grunt-cli```.tu
