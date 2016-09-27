@@ -32,7 +32,7 @@ function update() {
     //pega data atual com o moment.js
     var dateNow = moment();
     //chama função para rotacionar ponteiros
-    clock.rotate(dateNow.format('ss'), dateNow.format('mm'), dateNow.format('hh'));
+    clock.rotate(dateNow.format('ss'), dateNow.format('mm'), dateNow.format('HH'));
     setTimeout(update, 1000);
 }
 

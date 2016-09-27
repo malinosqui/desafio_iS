@@ -8,7 +8,7 @@ let rotate = (sec, min, hour) => {
     //lógica para pegar ângulo do ponteiro
     var degSec = 360 / 60 * sec;
     var degMin = 360 / 60 * min;
-    var degHour = 360 / 24 * hour;
+    var degHour = (hour * 360 / 24) - 180;
 
     var secPointer = $('#s');
     secPointer.css({
